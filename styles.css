@@ -51,7 +51,7 @@ nav a:hover {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 .about-me-card img {
     border-radius: 5%;
@@ -110,4 +110,35 @@ footer {
     background-color: #f4f4f4;
     padding: 20px;
     margin-top: 50px;
+}
+#custom-icon{
+    height: 30px;;
+    width: 25px;
+}
+
+.project-container {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.project-card {
+    margin: 20px;
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+.project-card-SC {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+#footer{
+    margin: auto;
+    text-align: center;
 }
