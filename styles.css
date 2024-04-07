@@ -81,10 +81,10 @@ nav a:hover {
     grid-gap: 20px;
 }
 .project {
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 .project img {
     width: 100%; /* Ensure image takes up full width of its container */
@@ -137,6 +137,27 @@ footer {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+.project-card-SC-container {
+    /* max-width: 60px; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin: 0 auto;
+    /* padding: 20px; */
+}
+.project-card-SC-item {
+    display: flex;
+    flex-direction: column;
+    margin:  auto;
+    padding: 20px;
+
+
+}
+.project-card-SC-container-image {
+    width: 350px; 
+    height: 200px; 
+    object-fit: cover; 
 }
 #footer{
     margin: auto;
