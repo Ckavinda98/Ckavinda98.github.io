@@ -120,6 +120,8 @@ footer {
     max-width: 1060px;
     margin: 0 auto;
     padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
 }
 .project-card {
     margin: 20px;
@@ -162,4 +164,77 @@ footer {
 #footer{
     margin: auto;
     text-align: center;
+}
+
+/* responsive  */
+
+
+/* Mobile responsiveness */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+    nav {
+        margin-top: 10px;
+    }
+    nav a {
+        margin: 0 10px;
+    }
+    .logo {
+        font-size: 16px;
+        padding: 5px 8px;
+        margin: 5px;
+    }
+    .container {
+        padding: 10px;
+    }
+    .about-me-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-me-card img {
+        width: 120px;
+        height: 160px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .about-me-text {
+        text-align: center;
+        padding: 0;
+    }
+    .social-media-icons {
+        margin-top: 10px;
+    }
+    .social-media-icons img {
+        width: 30px;
+        height: auto;
+    }
+    .projects {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 10px;
+    }
+    .project img {
+        height: 150px;
+        border-radius: 5px;
+    }
+    footer {
+        padding: 10px;
+    }
+}
+
+/* Tablet responsiveness */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        max-width: 90%;
+    }
+    .project {
+        padding: 15px;
+    }
+}
+
+/* Large desktop responsiveness */
+@media only screen and (min-width: 1025px) {
+    .container {
+        max-width: 1060px;
+    }
 }
