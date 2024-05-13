@@ -1,129 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-<header>
-    <!-- <h1>My Portfolio</h1> -->
-    <h1 class="logo">Kavinda.C@outlook.com</h1>
-    <nav>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <!-- <h1>My Portfolio</h1> -->
+      <h1 class="logo">Kavinda.C@outlook.com</h1>
+      <nav>
         <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
         <a href="aboutme.html">About Me</a>
+      </nav>
+    </header>
 
-    </nav>
-</header>
-
-<div class="container">
-    <section id="home">
-        
+    <div class="container">
+      <section id="home">
         <div class="about-me-card">
-            <img src="images\general\Staff-ID-Photo.jpg" alt="Your Photo">
-            <div class="about-me-text">
-                <h2>About Me</h2>
-                <h3>Charuka Kavinda</h3>
-                <p>Software Engineer / Full-Stack Developer </p>
-                <p>Highly skilled Software Engineer with a strong background in building robust and scalable applications.
-                     Proficient in React, Node.js, .NET, ASP.NET Core, Web API,
-                     and Spring Boot, with a proven track record of delivering 
-                     high-quality solutions that meet business needs and exceed customer expectations.</p>
-                <div class="social-media-icons">
-                    <a href="https://github.com/Ckavinda98"><img src="images\general\Github_logo_PNG1.png" alt="Social Icon 1" id="custom-icon"></a>
-                    <a href="https://www.linkedin.com/in/charuka-kavinda-6235aa20a/"><img src="images\general\Linkedin_logo_PNG3.png" alt="Social Icon 2" ></a>
-                    <a href="https://1drv.ms/b/s!Aiz-ugjpHPRszTCnvQgoHct89Ge2?e=RiASLd"><img src="images\general\CV1.png" alt="Social Icon 2" id="custom-icon"></a>
-                    <!-- Add more social media icons as needed -->
-                </div>
-                <div class="social-media-icons">
-                    <h2>Contact Details</h2>
-                    <p>Email : Kavinda.C@outlook.com</p>
-                </div>
+          <img src="images\general\Staff-ID-Photo.jpg" alt="Your Photo" />
+          <div class="about-me-text">
+            <h2>About Me</h2>
+            <h3>Charuka Kavinda</h3>
+            <br />
+            <p>Software Engineer / Full-Stack Developer</p>
+            <br />
+            <p>
+              Highly skilled Software Engineer with a strong background in
+              building robust and scalable applications. Proficient in React,
+              Node.js, .NET, ASP.NET Core, Web API, and Spring Boot, with a
+              proven track record of delivering high-quality solutions that meet
+              business needs and exceed customer expectations.
+            </p>
+            <div class="social-media-icons">
+              <button onclick="downloadCV()">Download CV</button>
             </div>
+            <div class="social-media-icons">
+              <h2>Contact Details</h2>
+              <p>Email : Kavinda.C@outlook.com</p>
+              <div class="social-media">
+                <a href="https://github.com/Ckavinda98"
+                  ><img
+                    src="images\general\Github_logo_PNG1.png"
+                    alt="Social Icon 1"
+                    id="custom-icon"
+                /></a>
+                <a href="https://www.linkedin.com/in/charuka-kavinda-6235aa20a/"
+                  ><img
+                    src="images\general\Linkedin_logo_PNG3.png"
+                    alt="Social Icon 2"
+                    id="custom-icon"
+                /></a>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="about-me-card">
-            
-            <div class="about-me-text">
-                <h2>Skills</h2>
-                <h3>Acaademic & Enterprise (2020 - Present)</h3>
-                     <ul>
-                        <li>One year of academic experience and six months of professional experience in
-                            Reactjs.</li>
-                        <li>Two years of academic experience and six months of professional experience in
-                            JavaScript and ES6.</li>
-                        <li>Two years of academic experience and six months in Java and Hibernate Spring Boot
-                            Framework.</li>
-                        <li>One year of academic experience with C#, MVC architecture, and the .NET
-                            framework/ASP.NET, including familiarity with .NET Core and ASP.NET Web API.</li>
-                        <li>One year of academic experience with Angular for front-end developmen</li>
-                        <li>Three years of academic and professional experience in HTML, CSS, and Tailwind.</li>
-                        <li>Two years of academic and professional experience in GitHub and GitLab.</li>
-                        <li>Six months of professional experience in AWS DynamoDB, coupled with two years
-                            of academic exposure to NoSQL, SQL, and MySQL databases.</li>
-                        <li>Six months of professional experience in Agile Methodology.</li>
-                        <li>Possesses a solid understanding of data structures and algorithms.</li>
-                        <li>Excellent proficiency in both spoken and written English and Sinhala</li>
-                     </ul>
-                <h4>Technologies  : .NET Core, ASP.NET, .NET(MVC Architeture), Razor Page, MSSQL, C#, WEB API, Java, JavaScript, Amazon DynamoDB, Agile, Jira, ReactJs, Spring Boot, RestAPI, HTML, TailwindCSS</h4>
-
-            </div>
+          <div class="about-me-text">
+            <h2>Experience</h2>
+            <h3>Dialog Axiata PLC 2023 (Jan-July)</h3>
+            <br />
+            <h4>Position : Developer</h4>
+            <br />
+            <p>
+              During my internship at Dialog Axiata, I took a leading role in
+              developing the Dashboard for AWS Elastic Service. Throughout this
+              project, I actively engaged in both front-end and backend aspects.
+              I employed the React.js library for front-end development,
+              focusing particularly on visualizing intricate details of the
+              Elastic Service obtained from the RestAPI. In the backend, I
+              established connections using the Spring Boot framework and Java,
+              linking with DynamoDB via Proxy and VPN to ensure secure and
+              efficient data communication. The culmination of this effort is a
+              Dashboard equipped with several functions, including the
+              capability to save emails in the database through RestAPI.
+            </p>
+            <ul>
+              <li>
+                React: Utilized React to build a modern and interactive user
+                interface, providing a seamless user experience and efficient
+                data rendering.
+              </li>
+              <li>
+                Tailwind CSS: Leveraged Tailwind CSS for streamlined and
+                efficient styling, allowing for rapid UI development and
+                consistent design across the application.
+              </li>
+              <li>
+                Spring Boot: Employed Spring Boot to build a scalable and
+                performant backend, facilitating the implementation of business
+                logic and integration with various systems.
+              </li>
+              <li>
+                RESTful APIs: Designed and implemented RESTful APIs to enable
+                seamless communication between the frontend and backend
+                components, ensuring efficient data transfer and interaction.
+              </li>
+              <li>
+                DynamoDB: Implemented email functionality by storing data in
+                DynamoDB, leveraging its capabilities for efficient data storage
+                and retrieval
+              </li>
+              <li>
+                VPN and Proxy: Configured VPN and proxy settings to ensure
+                secure data retrieval, enabling access to external resources and
+                protecting sensitive information. Established VPN connections
+                using the rasdial command line for seamless and secure data
+                access through the VPN.
+              </li>
+              <li>
+                Throughout the project, I collaborated closely with
+                cross-functional teams, following agile development
+                methodologies to deliver high-quality solutions that met
+                business requirements and exceeded customer expectations.
+              </li>
+            </ul>
+            <h4>
+              Technologies : Java, JavaScript, Amazon DynamoDB, Agile, Jira,
+              ReactJs, Spring Boot, RestAPI, HTML, TailwindCSS
+            </h4>
+          </div>
         </div>
         <div class="about-me-card">
-            
-            <div class="about-me-text">
-                <h2>Experience</h2>
-                <h3>Dialog Axiata PLC 2023 (Jan-July)</h3>
-                <br>
-                <h4>Position : Developer </h4>
-                <br>
-                <p>During my internship at Dialog Axiata, I took a leading role in developing the Dashboard for
-                    AWS Elastic Service. Throughout this project, I actively engaged in both front-end and backend aspects. I employed the React.js library for front-end development, focusing particularly
-                    on visualizing intricate details of the Elastic Service obtained from the RestAPI.
-                    In the backend, I established connections using the Spring Boot framework and Java, linking
-                    with DynamoDB via Proxy and VPN to ensure secure and efficient data communication.
-                    The culmination of this effort is a Dashboard equipped with several functions, including the
-                    capability to save emails in the database through RestAPI.</p>
-                     <ul>
-                        <li>React: Utilized React to build a modern and interactive user interface,
-                             providing a seamless user experience and efficient data rendering.</li>
-                        <li>Tailwind CSS: Leveraged Tailwind CSS for streamlined and efficient styling, 
-                            allowing for rapid UI development and consistent design across the application.</li>
-                        <li>Spring Boot: Employed Spring Boot to build a scalable and performant backend, 
-                            facilitating the implementation of business logic and integration with various systems.</li>
-                        <li>RESTful APIs: Designed and implemented RESTful APIs to enable seamless communication between the frontend and backend components,
-                             ensuring efficient data transfer and interaction.</li>
-                        <li>DynamoDB: Implemented email functionality by storing data in DynamoDB,
-                             leveraging its capabilities for efficient data storage and retrieval</li>
-                        <li>VPN and Proxy: Configured VPN and proxy settings to ensure secure data retrieval,
-                             enabling access to external resources and protecting sensitive information. 
-                             Established VPN connections using the rasdial command line for seamless and
-                              secure data access through the VPN.</li>
-                        <li>Throughout the project, I collaborated closely with cross-functional teams,
-                             following agile development methodologies to deliver 
-                            high-quality solutions that met business requirements and exceeded customer expectations.</li>
-                     </ul>
-                <h4>Technologies  : Java, JavaScript, Amazon DynamoDB, Agile, Jira, ReactJs, Spring Boot, RestAPI, HTML, TailwindCSS</h4>
-
-            </div>
+          <div class="about-me-text">
+            <h2>Education</h2>
+            <h3>Cardiff Metropolitain Univercity (2020 - 2023)</h3>
+            <h4>BSc (Hons) Software Engineering</h4>
+            <h4>
+              Technologies : Java, JavaScript, PHP, MYSQL, MSSQL, ReactJs,
+              Spring Boot, Python, HTML, CSS, Bootstrap
+            </h4>
+          </div>
         </div>
-        <div class="about-me-card">
-            <div class="about-me-text">
-                <h2>Education</h2>
-                <h3>Cardiff Metropolitain Univercity (2020 - 2023)</h3>
-                <h4>BSc (Hons) Software Engineering </h4>
-                <h4>Technologies  : Java, JavaScript, PHP, MYSQL, MSSQL, ReactJs, Spring Boot, Python, HTML, CSS, Bootstrap</h4>
-                
-            </div>
-        </div>
-    </section>
-</div>
+      </section>
+    </div>
 
-<footer>
-    <p id="footer">&copy; 2024 Charuka Kavinda</p>
-</footer>
-
-</body>
+    <footer>
+      <p id="footer">&copy; 2024 Charuka Kavinda</p>
+    </footer>
+  </body>
 </html>
