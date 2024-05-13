@@ -59,7 +59,6 @@
               </button>
             </div>
             <div class="social-media-icons">
-              s
               <h2>Contact Details</h2>
               <p>Email : Kavinda.C@outlook.com</p>
             </div>
@@ -180,5 +179,17 @@
     <footer>
       <p id="footer">&copy; 2024 Charuka Kavinda</p>
     </footer>
+    <script>
+      function downloadCV() {
+        const cvUrl = "D:/Portofolio/Portofolio/UpdatedCV.pdf";
+        const link = document.createElement("a");
+        link.href = cvUrl;
+        link.download = "UpdatedCV.pdf";
+        link.target = "_blank";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
+    </script>
   </body>
 </html>
