@@ -198,5 +198,17 @@
     <footer>
       <p id="footer">&copy; 2024 Charuka Kavinda</p>
     </footer>
+    <script>
+      function downloadCV() {
+        const cvUrl = "Portofolio/UpdatedCV.pdf";
+        const link = document.createElement("a");
+        link.href = cvUrl;
+        link.setAttribute("download", "UpdatedCV.pdf");
+        link.target = "_blank";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
+    </script>
   </body>
 </html>
